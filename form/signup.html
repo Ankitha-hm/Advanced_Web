@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+
+<head><link rel="shortcut icon" href="logo.jpg"/>
+
+<title>Pranams Policy</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="styless.css">
+
+<script>
+
+function validateForm(){
+
+var x=document.forms["myForm"]["user-name"].value;
+
+if(x=="") {
+
+alert("name must be filled out");
+
+return false;
+
+}
+
+}
+
+</script>
+
+<style>
+
+a {
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  padding: 8px 16px;
+
+}
+
+a:hover {
+
+  background-color: #ddd;
+
+  color: black;
+
+}
+
+.next {
+
+  background-color: rgb(25, 6, 68);
+
+  color: white;
+
+  float:right;
+
+}
+
+.round {
+
+  border-radius: 50%;
+
+}
+
+.log {
+
+  background-color: rgb(25, 6, 68);
+
+  color: white;
+
+  float:center;
+
+}
+
+.square {
+
+  border: 50%;
+
+}
+
+* {
+
+  box-sizing: border-box;
+
+</style>
+
+</head>
+
+<body>
+
+</style>
+
+</head>
+
+<body>
+
+<a href="login.html" class="next round">&#8250;</a> 
+
+       <div id="right-form" class="form form-hide">
+
+<form name="myform" action="/form/signup" onsubmit="return validateForm()" method="post">
+
+         
+
+          <center> <h1>Signup</h1></center>
+
+           <form action="" method="post">
+
+<center>
+
+                <input type="text" name="Username" class="input-box" placeholder="User Name" required onsubmit="return validation()">
+
+                <input type="email" name="Email" class="input-box" placeholder="Email" required>
+
+                <input type="password" name="Password" class="input-box" placeholder="password"required>
+
+                <input type="password" name="CPassword" class="input-box" placeholder="confirm password"required>
+
+                <input type="phonenumber" name="Phonenumber" class="input-box" placeholder="Phone number"required>
+
+</center>
+
+                 <center></br><button type="submit" class="btn btn-skin pull-center" id="btnContactUs" style="align:center;">signup</button></div><center>
+
+<p>Already have an account?<p> 
+
+<center><a href="login.html" class="log square">Login</a></center>
+
+
+
+         <center> 
+
+ 
+
+                        </div>                   </form>
+
+</center>
+
+               
+
+           </form>
+
+
+
+       </div>
+
+
+
+         
+
+   </section>
+
+    <script src="mains.js"></script>
+
+</body>
+
+</html>

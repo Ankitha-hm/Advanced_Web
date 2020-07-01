@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head><link rel="shortcut icon" href="logo.jpg"/>
+<title>Pranams Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script>
+function validateForm(){
+var x=document.forms["myForm"]["Username"].value;
+if(x=="") {
+alert("name must be filled out");
+return false;
+}
+}
+</script>
+</head>
+<body>
+</style>
+</head>
+<body>
+   <section class="left-section">
+       <div id="left-cover" class="cover cover-hide">
+           <img src="img.png" alt="">
+           <h1>Welcome!</h1>
+           <h3>Already have an account?</h3>
+           <button type="button" class="switch-btn" onclick="location.reload()">Login</button>
+       </div>
+       <div id="left-form" class="form fade-in-element">
+     <form name="loginform" action="/form/form" onsubmit="return validateForm()" method="post">
+           <h1>Login</h1>
+           <form action="" method="post">
+
+                 <input type="text" name="Username" class="input-box" placeholder="User Name" required onsubmit="return validation()">
+                 <input type="password" name="Password" class="input-box" placeholder="Password" required>
+                 <center><button type="submit" class="btn btn-skin pull-center" id="btnContactUs" align="center">Login</button></center<br>
+            </form>
+             <a href="for.html"><u><p style="font-size:20px;text-align:center;">Forgot Password?</p></u></a>
+       </div>
+   </section>
+
+   <section class="right-section">
+       <div id="right-cover" class="cover fade-in-element">
+            <img src="img.png" alt="">
+            <h1>Welcome!</h1>
+            <h3>Don't have an account?</h3>
+            <button type="button" class="switch-btn" onclick="switchSignup()">Signup</button>
+         
+       </div>
+       <div id="right-form" class="form form-hide">
+<form name="regform" action="/form/form" onsubmit="return validateForm()" method="post">
+           <h1>Signup</h1>
+           <form action="" method="post">
+                <input type="text" name="Username" class="input-box" placeholder="User Name" required onsubmit="return validation()">
+                <input type="email" name="Email" class="input-box" placeholder="Email" required>
+                <input type="password" name="Password" class="input-box" placeholder="password"required>
+                <input type="password" name="CPassword" class="input-box" placeholder="confirm password"required>
+                <input type="phonenumber" name="Phonenumber" class="input-box" placeholder="Phone number"required>
+                 <center><button type="submit" class="btn btn-skin pull-center" id="btnContactUs">signup</button></div></center> 
+         <center> 
+ <p><u><a href="index.html" align="center" style="color:orange;">Back</a></u></p>
+                        </div>                   </form>
+</center>
+               
+           </form>
+
+       </div>
+
+   </section>
+    <script src="main.js"></script>
+</body>
+</html>
+

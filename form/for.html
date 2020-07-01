@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head><link rel="shortcut icon" href="logo.jpg"/>
+<title>Pranams Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styless.css">
+</head>
+<body>
+<center>
+<style>
+@{
+New Password = Request["New Password"];
+Re-enter Password = Request["Re-enter Password"];
+token = Request["token"];
+if IsPost
+{
+    // input testing is ommitted here to save space
+    retunValue = ResetPassword(token, newPassword);
+}
+}
+</style>
+</style>
+</head>
+</center>
+<body>
+<center>
+
+<center>
+       <div id="left-form" class="form fade-in-element">
+           <center><h4>Forgot Password</h4>
+           <form action="" method="post">
+                 <input type="password" name="New Password" class="input-box" placeholder="New Password">
+                 <input type="password" name="Re-enter Password" class="input-box" placeholder="Re-enter Password"></center>
+                
+                 <button type="submit" class="btn btn-skin pull-center" id="btnContactUs" align="center">submit</button></div> 
+         
+           </form>
+       </div>
+</center>
+   </section>
+<script src="mains.js"></script>
+</center>
+</body>
+</html>
